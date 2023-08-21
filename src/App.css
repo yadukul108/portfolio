@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.home-img{
+ 
+  background: url(C:\Users\DELL\Desktop\portfolio\iheb-ab-OBufvGMaBaQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px rgb(255 255 255 /30%);
+  order:1;
+  justify-self: center;
+  width:300px;
+  height:300px;
+  animation: profile_animate 8s ease-in-out infinite 1s;
+}
+@keyframes profile_animate {
+  0%{
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50%{
+    border-radius: 30% 40% 70% 40%/50% 60% 30% 60%;
+  }
+  100%{
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  
+}
+.home--img{
+ 
+  background: url(C:\Users\DELL\Desktop\portfolio\obi-pixel7propix-UEQvUtRs224-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10%;
+  border: #282c34;
+  box-shadow: inset 0 0 0 9px rgba(14, 13, 13, 0.3);
+  order:1;
+  justify-self: center;
+  width:300px;
+  height:300px;
+  
+}
+.home--img:hover{
+  transform: scale(1.05); /* Apply a slight scale increase on hover */
+
+}
+.home---img{
+background: url(https://images.ctfassets.net/rvt0uslu5yqp/4sL7hMUKGMwWikyJWp6iHQ/3bedd3ce600457f34428746e22fcbad8/Mentimeter_Applications_Web_Live-Polling_HeroImage_2021__1_.png?w=1200&h=630&q=90&fm=jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10%;
+  border: #282c34;
+  box-shadow: inset 0 0 0 9px rgba(14, 13, 13, 0.3);
+  order:1;
+  justify-self: center;
+  width:300px;
+  height:300px;
+  
+}
+.home---img:hover{
+  transform: scale(1.05); /* Apply a slight scale increase on hover */
+
+}
+
+
